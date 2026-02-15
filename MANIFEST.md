@@ -41,10 +41,10 @@ Ele mudará de forma, estrutura e arquitetura ao longo do tempo.
 
 O projeto existe para:
 
-* demonstrar decisões de backend no mundo real
-* mostrar trade-offs arquiteturais
-* expor falhas comuns de sistemas em crescimento
-* ensinar como resolver problemas progressivamente
+- Demonstrar decisões de backend no mundo real
+- Mostrar trade-offs arquiteturais
+- Expor falhas comuns de sistemas em crescimento
+- Ensinar como resolver problemas progressivamente
 
 Ele não é um template perfeito.
 Ele é um laboratório de evolução de software.
@@ -57,10 +57,10 @@ Contribuições são bem-vindas, desde que respeitem os princípios do projeto.
 
 Todo Pull Request deve:
 
-* explicar o problema que resolve
-* justificar a decisão técnica
-* manter o sistema compreensível
-* incluir testes quando aplicável
+- Explicar o problema que resolve
+- Justificar a decisão técnica
+- Manter o sistema compreensível
+- Incluir testes quando aplicável
 
 O objetivo não é apenas melhorar o código, mas melhorar o entendimento coletivo sobre engenharia de backend.
 
@@ -68,10 +68,10 @@ O objetivo não é apenas melhorar o código, mas melhorar o entendimento coleti
 
 ## 5. Diretrizes Arquiteturais Iniciais
 
-* O sistema começa como um monólito intencionalmente simples
-* Separações arquiteturais surgem conforme o domínio cresce
-* Microserviços só serão introduzidos quando houver necessidade real
-* Observabilidade, filas e cache surgem como resposta a problemas concretos
+- O sistema começa como um monólito intencionalmente simples
+- Separações arquiteturais surgem conforme o domínio cresce
+- Microserviços só serão introduzidos quando houver necessidade real
+- Observabilidade, filas e cache surgem como resposta a problemas concretos
 
 ---
 
@@ -89,5 +89,3 @@ Promete transparência na evolução, nas decisões e nos erros.
 
 Porque sistemas reais não nascem ideais.
 Eles se tornam robustos ao longo do tempo.
-
----
