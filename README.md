@@ -1,68 +1,72 @@
-# TaskForge
+# Backend Detonado - TaskForge
 
-TaskForge é uma plataforma de gestão de tarefas para times, construída publicamente como parte da série **Backend Detonado**.
+O **Backend Detonado** é um laboratório público onde o **TaskForge** é construído e evoluído, com foco em arquitetura de backend, boas práticas e evolução sob pressão. O projeto busca ensinar como um sistema começa simples e se torna robusto à medida que cresce.
 
-O objetivo do projeto não é começar perfeito, mas evoluir ao longo do tempo — simulando como sistemas reais crescem, enfrentam problemas e amadurecem.
+## 🚀 Visão Geral
 
----
+- **Produto**: Sistema colaborativo de gerenciamento de projetos e tarefas.
+- **Objetivo**: Ensinar práticas de backend, arquitetura evolutiva e como resolver problemas reais de sistemas.
+- **Stack**:
+  - **Backend**: Node.js + Fastify + TypeScript
+  - **Banco de Dados**: PostgreSQL
+  - **Ferramentas**: Docker, ORM, Query Builder, CI simples.
 
-## 🎯 Objetivo do Projeto
+## 🎯 Como Rodar Localmente
 
-Demonstrar, na prática:
+1. Clone o repositório:
 
-* como um backend nasce simples
-* como problemas de escala surgem
-* como decisões arquiteturais são tomadas
-* como sistemas evoluem para arquiteturas distribuídas
+   ```bash
+   git clone https://github.com/paulozy/taskforge.git
+   ```
+2. Instale as dependências:
 
-Este projeto é um laboratório vivo de engenharia de software.
+   ```bash
+   cd taskforge
+   npm install
+   ```
+3. Configure o banco de dados:
 
----
+   - Crie um banco PostgreSQL local.
+   - Configure as variáveis de ambiente no `.env`.
+4. Rode o projeto:
 
-## 🧠 Filosofia
+   ```bash
+   npm run dev
+   ```
+5. Acesse o sistema no seu navegador em `http://localhost:3000`.
 
-O TaskForge segue uma abordagem orientada a problemas:
+## 🤝 Como Contribuir
 
-* começamos com um monólito simples
-* melhorias surgem conforme o sistema cresce
-* nenhuma tecnologia é adotada sem necessidade real
+Estamos sempre abertos a contribuições! Para ajudar:
 
-Para entender os princípios do projeto, veja o arquivo `MANIFEST.md`.
+1. Faça um fork do repositório.
+2. Crie uma branch com sua feature ou correção: `git checkout -b minha-nova-feature`
+3. Comite suas alterações: `git commit -am 'Adicionando nova feature'`
+4. Envie seu PR para a branch `main`.
 
----
+## 🔧 Ferramentas
 
-## 🚀 Rodando localmente (em breve)
+- **GitHub Actions**: Para rodar testes e garantir a qualidade do código.
+- **Docker**: Para facilitar a configuração do ambiente local.
+- **PostgreSQL**: Banco de dados relacional utilizado no projeto.
 
-As instruções serão adicionadas no primeiro episódio da série.
+## 📝 Roadmap
 
----
+O projeto evolui através das temporadas:
 
-## 🤝 Como contribuir
+1. **Temporada 1 - Fundação**: Modular monolith, backend simples.
+2. **Temporada 2 - Assíncrono**: Adicionando processamento assíncrono e filas.
+3. **Temporada 3 - Escala**: Melhorias de performance com cache e observabilidade.
+4. **Temporada 4 - Distribuição**: Arquitetura distribuída com workers e microservices.
 
-Este é um projeto aberto e evolutivo.
+## 🗣 Contribuidores
 
-Você pode contribuir:
+Agradecemos a todos os contribuidores que ajudam a manter esse projeto evoluindo. Para ver a lista de contribuidores, acesse o arquivo [CONTRIBUTORS.md](CONTRIBUTORS.md).
 
-* abrindo issues com problemas encontrados
-* sugerindo melhorias arquiteturais
-* enviando Pull Requests com soluções justificadas
+## 📜 Licença
 
-Antes de contribuir, leia o `MANIFEST.md` para entender a filosofia do projeto.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais informações.
 
----
+## 📣 Discussões
 
-## 📚 Sobre a série
-
-O desenvolvimento do TaskForge é acompanhado pela série **Backend Detonado**, que mostra passo a passo a evolução do sistema.
-
-Cada episódio adiciona novas funcionalidades, melhorias e desafios reais de backend.
-
----
-
-## ⚠️ Aviso
-
-Este projeto evoluirá continuamente.
-
-Estruturas, padrões e decisões podem mudar ao longo do tempo — e isso é intencional.
-
----
+Participe da discussão no [GitHub Discussions](https://github.com/seu-usuario/backend-detonado/discussions) para sugestões, dúvidas ou para colaborar com novas ideias.
